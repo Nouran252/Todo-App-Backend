@@ -1,8 +1,8 @@
 const express = require("express");
 const cookie_parser = require("cookie-parser");
-const { connectDB } = require("./db/connectDB.js");
-const userRouter = require("./routers/users.routers.js");
-const authRouter = require("./routers/auth.router.js");
+const { connectDB } = require("./DB/ConnectDB.js");
+const userRouter = require("./Routers/users.routers.js");
+const authRouter = require("./Routers/auth.router.js");
 const { checkUser } = require("./middlewares/auth.middleware.js");
 
 
