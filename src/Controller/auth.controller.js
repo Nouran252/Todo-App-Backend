@@ -56,13 +56,13 @@ const signUp = async (req,res)=>{
       res.status(201).send({
          status: 201,
          success:true,
-         data: newUser,
+         data: newuser,
          msg:"User registered successfully",
        });
   } catch (error) {
     res.status(500).send({
         status: 201,
-        data: newUser,
+        error: error.message,
       });
   }
    
