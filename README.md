@@ -86,6 +86,4 @@ The server should start at: `http://localhost:3000`
 ---
 
 
-## 🌟 Acknowledgments
-Special thanks to Open Source communities for amazing resources! 💙
 
